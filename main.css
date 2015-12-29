@@ -1,0 +1,70 @@
+
+html {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+*,
+html:before,
+html:after {
+	box-sizing: inherit;
+}
+
+input {
+	border: 3px solid black;
+	font-size: 1em;
+	text-align: center;
+	vertical-align: top;
+	display: block;
+	width: 18em;
+	margin: 1em auto;
+}
+
+input[type="submit"] {
+	box-shadow: 2px 3px 0 black;
+}
+
+.main-content {
+	width: 45em;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.signup {
+	background-color: #ddd;
+	border: 2px solid black;
+}
+
+.signup {
+	height: 22em;
+}
+
+.footer {
+	clear: both;
+}
+
+.footer > p {
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+.signup .brand-logo {
+	float: left;
+	width: 50%;
+}
+
+.signup .controls {
+	float: right;
+	width: 48%;
+	margin-top: 2em;
+}
+
+.brand-logo {
+	margin: 2% 0 2% 2%;
+	background-image: url(company-logo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 26em;
+	height: 20em;
+}
